@@ -1,4 +1,5 @@
 class Proyecto:
+    """Representa un proyecto de desarrollo o innovación gestionado en la empresa"""
     def __init__(self, nombre, descripcion, fecha_inicio):
         self.__nombre = nombre
         self.__descripcion = descripcion 

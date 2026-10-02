@@ -1,4 +1,5 @@
 class Departamento:
+    """Representa un departamento de la empresa EcoTech Solutions y su gerente asociado"""
     def __init__(self, nombre, gerente_asociado):
         self.__nombre = nombre  
         self.__gerente_asociado = gerente_asociado 

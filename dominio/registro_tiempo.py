@@ -1,4 +1,5 @@
 class RegistroTiempo:
+    """Controla el registro de horas y actividades realizadas por los empleados."""
     def __init__(self, fecha, horas_trabajadas, descripcion_tarea):
         self.__fecha = fecha  
         self.__horas_trabajadas = horas_trabajadas 

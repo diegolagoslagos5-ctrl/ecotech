@@ -1,4 +1,5 @@
 class Empleado:
+    """Almacena y gestiona la información personal y contractual de un empleado"""
     def __init__(self, id_unico, nombre, direccion, numero_telefono, direccion_correo_electronico, fecha_inicio_contrato, salario):
         self.__id_unico = id_unico 
         self._nombre = nombre  
